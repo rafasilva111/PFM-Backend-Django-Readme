@@ -28,6 +28,8 @@ This backend is built with Django, PostgreSQL, Celery, Redis, and Channels, and 
 - 🧠 **Asynchronous Tasks with Celery + Redis**
 - 🗓️ **Scheduled Jobs with Celery Beat**
 - 🛠️ **Powerful Django Admin Dashboard**
+- 🛠️ **ETL Functionality for Data Extraction, Transformation & Loading Workflows**
+- 🌐 **Automated Web Scraping with Selenium & BeautifulSoup for Dynamic and Static Content**
 - 📦 **Containerized for Easy Setup and Deployment**
 - 🔍 **API-ready Architecture (REST)**
 - 🧪 **Integrated Testing Tools (Pytest, unittest)**
