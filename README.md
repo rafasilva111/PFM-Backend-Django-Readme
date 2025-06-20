@@ -38,17 +38,17 @@ This backend is built with Django, PostgreSQL, Celery, Redis, and Channels, and 
 
 ## ✨ App Features
 
-- 🔐 **User Management (Create, Update, Delete, Block)**
-- 🔐 **Group/Permissions Management**
-- 🔐 **Task Management**
-- 🔐 **Jobs Management**
-- 🔐 **Recipes Management**
-- 🔐 **Ingredients Management**
-- 🔐 **Calendar Management**
-- 🔐 **Shopping lists Management**
-- 🔐 **Shopping lists Management**
-- 🔐 **Notification lists Management**
-- 🔐 **Dispensary lists Management**
+- 👤 **User Management (Create, Update, Delete, Block)**
+- 🛡️ **Group/Permissions Management**
+- ✅ **Task Management**
+- 🧑‍💼 **Jobs Management**
+- 📖 **Recipes Management**
+- 🥕 **Ingredients Management**
+- 📅 **Calendar Management**
+- 🛒 **Shopping Lists Management**
+- 📲 **Notification Lists Management**
+- 🧴 **Dispensary Lists Management**
+
 
 🛠️ Management refers to full CRUD operations (Create, Read, Update, Delete), along with essential supporting functionality such as filtering, searching, sharing, notifications, role-based access control, and any additional domain-specific features required for each entity.
 
