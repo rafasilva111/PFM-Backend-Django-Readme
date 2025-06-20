@@ -7,12 +7,13 @@ This backend is built with Django, PostgreSQL, Celery, Redis, and Channels, and 
 
 ## 🔧 Tech Stack
 
-| Technology     | Description                                                                 |
-|----------------|-----------------------------------------------------------------------------|
+| Technology     | Description                                                                  |
+|----------------|------------------------------------------------------------------------------|
 | **Django**     | High-level Python web framework for rapid development and clean architecture |
+| **Firebase**   | Optional integration for push notifications, analytics, or storage           |
 | **PostgreSQL** | Reliable and powerful open-source relational database                        |
 | **Celery**     | Asynchronous task queue for background processing and scheduling             |
-| **Redis**      | In-memory data store used as Celery broker and for caching                  |
+| **Redis**      | In-memory data store used as Celery broker and for caching                   |
 | **Channels**   | Adds WebSocket and async support to Django for real-time features            |
 | **Docker**     | Ensures consistent environments for development, testing, and deployment     |
 | **WSL**        | Linux environment on Windows for native-like Docker and development support  |
@@ -37,7 +38,19 @@ This backend is built with Django, PostgreSQL, Celery, Redis, and Channels, and 
 
 ## ✨ App Features
 
+- 🔐 **User Management (Create, Update, Delete, Block)**
+- 🔐 **Group/Permissions Management**
+- 🔐 **Task Management**
+- 🔐 **Jobs Management**
+- 🔐 **Recipes Management**
+- 🔐 **Ingredients Management**
+- 🔐 **Calendar Management**
+- 🔐 **Shopping lists Management**
+- 🔐 **Shopping lists Management**
+- 🔐 **Notification lists Management**
+- 🔐 **Dispensary lists Management**
 
+🛠️ Management refers to full CRUD operations (Create, Read, Update, Delete), along with essential supporting functionality such as filtering, searching, sharing, notifications, role-based access control, and any additional domain-specific features required for each entity.
 
 ---
 
@@ -171,12 +184,12 @@ docker exec -it django python manage.py shell
 
 ---
 
-## 🤝 Contributing
-
-Feel free to fork the repo and open a pull request. Contributions are welcome and encouraged!
-
----
-
 ## 📜 License
 
-MIT License © [Your Name or Company]
+© 2025 GoodBites. All rights reserved.
+
+This software and all associated files are the exclusive property of [Your Name].  
+Unauthorized copying, distribution, use, or modification of any part of this project is strictly prohibited without prior written permission.
+
+This code is licensed for private use only.  
+Commercial or public use, including derivative works, is not allowed.
